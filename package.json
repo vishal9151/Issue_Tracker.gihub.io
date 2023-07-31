@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Nodejs + ejs Application to track issues/bugs for a project",
   "author": "Vishal Mangla",
-  "license": "ISC", // Add the comma here
+  "license": "ISC", 
   "main": "index.js",
   "engines": {
     "node": ">=14.20.1"
