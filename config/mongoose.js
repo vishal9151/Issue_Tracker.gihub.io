@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-mongoose.connect('mongodb://127.0.0.1/issue-tracker')
+mongoose.connect('mongodb+srv://vishal:manglvisha@cluster0.wymnu9f.mongodb.net/issue_tracker')
   .then(() => {
     console.log('Connected to Database :: MongoDB');
   })
