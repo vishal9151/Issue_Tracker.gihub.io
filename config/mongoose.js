@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-mongoose.connect('mongodb+srv://vishal:manglvisha@cluster0.wymnu9f.mongodb.net/issue_tracker')
+mongoose.connect("mongodb+srv://manglvisha:8lJptBSUBNWz8HlQ@issuetracker.jfxms5q.mongodb.net/IssueTracker?retryWrites=true&w=majority",{ useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log('Connected to Database :: MongoDB');
   })
